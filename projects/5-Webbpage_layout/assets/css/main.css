@@ -1,0 +1,35 @@
+@charset "UTF-8";
+body {
+    background-color: #303952;
+}
+
+header {
+    background-color: #414a63;
+    width: 100%;
+    height: 250px;
+    margin-bottom: 20px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+    min-height: 500px;
+    margin-bottom: 20px;
+}
+
+.main-container nav {
+    flex: 1;
+    background-color: #414a63;
+}
+
+.main-container main {
+    flex: 2;
+    background-color: #202841;
+}
+
+footer {
+    background-color: #596275;
+    width: 100%;
+    height: 150px;
+}

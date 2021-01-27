@@ -1,0 +1,45 @@
+@charset "UTF-8";
+body {
+    background-color: purple;
+}
+
+header {
+    background-color: purple;
+    min-height: 250px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+header section {
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+
+}
+main {
+    min-height: 250px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+main section {
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+footer {
+    background-color: purple;
+    display: flex;
+    justify-content: space-evenly;
+    height: 250px;
+}
+
+footer section {
+    background-color: violet;
+    height: 200px;
+    width: 200px;
+}

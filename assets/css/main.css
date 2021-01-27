@@ -1,0 +1,56 @@
+@charset "UTF-8";
+body {
+    background-color: blue;
+    margin: 0px;
+}
+
+header {
+    height: 50px;
+    padding-bottom: 15px;
+}
+
+header h1 {
+    color: aliceblue;
+    font-size: 50px;
+    margin-bottom: 0;
+}
+
+main {
+    min-height: 600px;
+    background-color: darkblue;
+    display: flex;
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: stretch;
+}
+
+main section {
+    background-color: royalblue;
+    margin: 10px;
+    height: 300px;
+    width: 300px;
+}
+
+main section ul {
+    list-style: none;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+main section li {
+    height: 100%;
+}
+
+main section a {
+    color: white;
+    text-decoration: none;
+    font-size: 50px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    height: 100%;
+}

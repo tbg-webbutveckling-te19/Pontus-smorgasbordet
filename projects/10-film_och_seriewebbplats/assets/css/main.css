@@ -1,0 +1,330 @@
+@charset "UTF-8";
+
+body {
+    background-color: #1e272e;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #343c42;
+}
+
+.logoTyp {
+    height: 100px;
+    flex: 1;
+}
+
+.rubrik {
+    height: 100px;
+    flex: 9;
+}
+
+.rubrik h1 {
+    font-size: 90px;
+    margin: 0px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+}
+
+/********************
+Top Serier och Filmer
+********************/
+
+.features {
+    background-color: #343c42;
+    margin-bottom: 0px;
+}
+
+.features h2 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+.top {
+    height: 350px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #343c42;
+}
+
+.top1 {
+    height: 350px;
+    flex: 1;
+}
+
+.top1 li {
+    line-height: 400%;
+    list-style-type: none;
+    font-weight: 800;
+    text-align: center;
+}
+
+.top2 {
+    height: 350px;
+    flex: 1;
+}
+
+.top2 li {
+    line-height: 400%;
+    list-style-type: none;
+    font-weight: 800;
+    text-align: center;
+}
+
+.something {
+    background-color: #343c42;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;    
+}
+
+.something a {
+    max-width: 100%;
+    text-align: end;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+section.child:nth-child(1){
+    flex: 1;
+    height: 350px;
+    margin-bottom: 15px;
+    margin-right: 10px;
+    background-color: #343c42;
+}
+
+section.child:nth-child(2){
+    flex: 1;
+    height: 350px;
+    margin-bottom: 15px;
+    background-color: #343c42;
+    
+}
+
+/******
+Footer
+******/
+
+footer {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: #343c42;
+}
+
+footer h2 {
+    color: peru;
+    text-align: center;
+    display: block;
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer li {
+    text-align: center;
+}
+
+footer a {
+    color: black;
+    text-align: center;
+    display: block;
+}
+
+/******
+Undersida
+******/
+
+.name {
+    height: 150px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-color: #343c42;
+}
+
+.name h1 {
+    font-size: 100px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-stretch: extra-expanded;
+    text-decoration: underline;
+}
+/***********
+    Summary
+***********/
+.summary {
+    flex: 1;
+    height: 520px;
+    margin-right: 20px;
+    background-color: #343c42;
+}
+
+.summary h1 {
+    font-size: 50px;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.summary a {
+    font-size: 20px;
+    word-spacing: 2.5px;
+    line-height: 200%;
+}
+
+.parent {
+    flex: 1;
+}
+/*********
+Picture Vikings
+*********/
+.picturesVikings {
+    height: 200px;
+    width: 100%;
+    background-color: #343c42;
+    margin-bottom: 20px;
+}
+
+.picturesVikingsChild {
+    height: 200px;
+    flex: 1;
+    animation: picturesVikings 20s infinite;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes picturesVikings {
+    0%, 100% {
+        background-image: url(../images/Vikings-1.jpg);
+    }
+    20% {
+        background-image: url(../images/vikings-2.jpg);
+    }
+    40% {
+        background-image: url(../images/vikings-3.jpg);
+    }
+    60% {
+        background-image: url(../images/vikings-4.jpg);
+    }
+    80% {
+        background-image: url(../images/vikings-5.jpg);
+    }
+}
+
+.picturesVikingsText {
+    height: 200px;
+    flex: 1;
+}
+
+/********
+Main Cast
+********/
+
+.mainCast {
+    height: 300px;
+    width: 100%;
+    background-color: #343c42;
+}
+
+.mainCast a {
+    color: black;
+}
+ul li {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    line-height: 130%;
+}
+
+/********
+Picture Gud Fadern
+********/
+.picturesGudFadern {
+    height: 200px;
+    width: 100%;
+    background-color: #343c42;
+    margin-bottom: 20px;
+}
+.picturesGudFadernChild {
+    height: 200px;
+    flex: 1;
+    animation: picturesGudFadern 20s infinite;
+    background-position: center;
+    background-size: cover;
+}
+
+@keyframes picturesGudFadern {
+    0%, 100% {
+        background-image: url(../images/gudFadern-1.jpg);
+    }
+    20% {
+        background-image: url(../images/gudFadern-2.jpg);
+    }
+    40% {
+        background-image: url(../images/gudFadern-3.jpg);
+    }
+    60% {
+        background-image: url(../images/gudFadern-4.jpg);
+    }
+    80% {
+        background-image: url(../images/gudFadern-5.jpg);
+    }
+}
+
+.picturesGudFadernText {
+    height: 200px;
+    flex: 1;
+}
+
+/**********
+Alex Hogh Andersen
+**********/
+
+.alex {
+    background-color: #343c42;
+    height: 75px;
+    width: 100%;
+}
+
+.alex h1 {
+    color: #dfe6e9;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    word-spacing: 12.5px;
+    font-size: 50px;
+    margin: 0px;
+    padding-top: 5px;
+}
+
+.omAlex {
+    background-color: #343c42;
+    height: 500px;
+    flex: 3;
+}
+
+.omAlex a {
+    line-height: 300%;
+    font-size: 18px;
+    word-spacing: 2.5px;
+    font-weight: 500;
+}
+
+.omAlex img {
+    border-radius: 5px;
+}
+
+/*******
+Reusable Classes
+*******/
+
+.addFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

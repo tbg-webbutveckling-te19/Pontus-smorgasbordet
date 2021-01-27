@@ -1,0 +1,536 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #778beb;
+}
+
+.animationGallery {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: wrap-reverse;
+
+    width: 95xw;
+    min-height: 80vh;
+
+    background-color: #5361a4;
+
+    margin: auto;
+    padding: 20px 10px;
+}
+
+/*.animationItem {
+    width: 200px;
+    height: 200px;
+
+    background-color: #92a2ef;
+
+    transition: background-color .5s, border-radius 1s ease-in;
+}
+
+.animationItem:hover {
+    background-color: coral;
+    border-radius: 10px;
+
+}
+*/
+
+.parent {
+    width: 30%;
+    min-height: 300px;
+
+    border: 1px solid #fff;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.parent h2 {
+    text-align: center;
+    color: snow;
+    text-shadow: 3px 3px 5px black;
+}
+
+.child {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0, 0, 0, .1);
+    padding: 5px;
+
+    position: relative;
+}
+/**************************
+        Color Change
+**************************/
+
+.colorChange {
+    width: 100%;
+    height: 75px;
+
+    background-color: goldenrod;
+    margin: 15px 0px;
+
+
+}
+
+.colorChange h2{
+    text-shadow: none;
+}
+
+.changeBg {
+    transition: background-color .5s ease-in; /* Cubic bezier*/
+}
+
+.changeBg:hover {
+    background-color: red;
+}
+
+.changeText h2 {
+    transition: color .4s ease-in-out;
+}
+
+.changeText:hover h2{
+    color: yellow;
+}
+
+.changeBorder {
+    border: 5px solid black;
+    transition: border-color .5s ease;
+}
+
+.changeBorder:hover {
+    border-color: red;
+}
+
+/**************************
+        opacity
+**************************/
+
+.fade {
+    width: 75px;
+    height: 200px;
+
+    background-color: goldenrod;
+    border: 0px solid white;
+    margin: 5px;
+    transition: opacity .4s, border .4s;
+}
+
+.fade:nth-child(1):hover {
+    opacity: 0;
+}
+
+.fade h2 {
+    text-shadow: none;
+    opacity: 0;
+
+    transition: opacity .4s;
+}
+
+.fade:nth-child(2):hover h2 {
+    opacity: 1;
+}
+
+.fade:nth-child(3):hover {
+    border: 5px solid white;
+}
+/**************************
+        Scale
+**************************/
+.scale{
+    width: 75px;
+    height: 75px;
+    background-color:goldenrod ;
+
+    margin: 2px;
+
+    transition: transform .3s ease-in-out;
+}
+
+.scale:nth-child(1):hover {
+    transform: scaleX(1.1);
+}
+
+.scale:nth-child(2):hover {
+    transform: scaleY(1.5);
+}
+
+.scale:nth-child(3):hover {
+    transform: scaleX(.9);
+}
+
+.scale:nth-child(4):hover {
+    transform: scaleY(.5);
+}
+
+.scale:nth-child(5):hover {
+    transform: scale(1.5);
+}
+
+
+/**************************
+        Rotate
+**************************/
+
+.rotate{
+    width: 100px;
+    height: 100px;
+
+    margin: 3px;
+
+    background-color: goldenrod;
+
+    transition: transform .3s ease-in-out;
+}
+
+.rotate:nth-child(1):hover {
+    transform: rotate(90deg);
+}
+
+.rotate:nth-child(2):hover {
+    transform: rotate(-90deg);
+}
+
+.rotate:nth-child(3) {
+    transition: transform 6s, border-radius 6s ease;
+}
+
+.rotate:nth-child(3):hover {
+    transform: rotate(100000deg) scale(1.5);
+    border-radius: 100%;
+}
+
+.rotate:nth-child(4):hover {
+    transform: rotateX(180deg);
+}
+
+.rotate:nth-child(5):hover {
+    transform: rotateY(180deg);
+}
+
+/**************************
+        Border Radius
+**************************/
+.br {
+    width: 150px;
+    height: 150px;
+
+    background-color: goldenrod;
+
+    margin: 5px;
+}
+
+.square, .circle {
+    transition: .4s ease;
+}
+.square:hover {
+    border-radius: 100%;
+}
+
+.circle {
+    border-radius: 100%;
+}
+
+.circle:hover {
+    border-radius: 0%;
+}
+
+/**************************
+        Translate
+**************************/
+
+.translate {
+    width: 75px;
+    height: 75px;
+
+    background-color: goldenrod;
+
+    margin: 5px;
+
+    transition: transform .4s ease-in-out;
+}
+
+.translate:nth-child(1):hover {
+    transform: translateX(10px);
+}
+
+.translate:nth-child(2):hover {
+    transform: translateY(10px);
+}
+
+.translate:nth-child(3):hover {
+    transform: translateX(-10px);
+}
+
+.translate:nth-child(4):hover {
+    transform: translateY(-10px);
+}
+
+.translate:nth-child(5):hover {
+    transform: translate(10px, 10px);
+}
+/* WET code - Write Everything Twice*/
+/* DRY code - Do not repeat yourself*/
+
+/**************************
+        Delay
+**************************/
+.delay {
+    width: 50px;
+    height: 50px;
+
+    background-color: goldenrod;
+
+    margin: 5px;
+
+    transition: transform 1s ease;
+}
+
+.child:hover .delay {
+    transform: translateX(300px);
+}
+
+.delay:nth-child(odd) {
+    background-color: rebeccapurple;
+    transition-delay: .4s;
+}
+
+.delay:nth-child(4) {
+    background-color: steelblue;
+    transition-delay: .2s;
+}
+
+/**************************
+        Box-shadow
+**************************/
+.shadow {
+    width: 100%;
+    height: 100%;
+}
+
+.shadow button {
+    width: 80%;
+    height: 50%;
+
+    background-color: black;
+    color: silver;
+
+    border-radius: 5px;
+    outline: none;
+    border: none;
+    
+    cursor: pointer;
+
+    transition: all .4s ease;
+}
+
+.btnShadow1:hover {
+    background: transparent;
+    box-shadow: 2px 2px 0px #000000;
+}
+
+.btnShadow2:hover {
+    background: transparent;
+    color: white;
+    box-shadow: 0px 45px 16px -16px black; /* x y blur spread color */
+}
+
+/**************************
+        Filter
+**************************/
+
+.filter1, .filter2 {
+    width: 100px;
+    height: 100px;
+
+    background-image: url(../images/colors.jpg.jpg);
+    background-size: contain;
+
+    margin: 5px;
+
+    transition: filter .4s;
+}
+
+.filter1:nth-child(1) {
+    filter: grayscale(100%); /* % Unchanged, 100% gray*/
+}
+
+.filter1:nth-child(1):hover {
+    filter: grayscale(0%);
+}
+
+.filter1:nth-child(2) {
+    filter: blur(3px);
+}
+
+.filter1:nth-child(2):hover {
+    filter: blur(0px);
+}
+
+.filter1:nth-child(3) {
+    filter: brightness(50%);
+}
+
+.filter1:nth-child(3):hover {
+    filter: brightness(100%);
+}
+
+.filter2:nth-child(1) {
+    filter: contrast(50%);
+}
+
+.filter2:nth-child(1):hover {
+    filter: contrast(200%);
+}
+
+/* 0deg unchanged - between 0deg and 360deg change the color. above 360deg wraps around*/
+.filter2:nth-child(2) {
+    filter: hue-rotate(0deg);
+}
+
+.filter2:nth-child(2):hover {
+    filter: hue-rotate(180deg)
+}
+
+/*0% unchanged - 100% fully incerted colors*/
+.filter2:nth-child(3) {
+    filter: invert(0%)
+}
+
+.filter2:nth-child(3):hover {
+    filter: invert(100%);
+}
+
+/**************************
+        BG Animation        
+**************************/
+.bgAnimation {
+    animation: bgChange 5s alternate infinite;
+}
+
+@keyframes bgChange {
+    form {
+        background-color: crimson;
+    }
+    to {
+        background-color: goldenrod;
+    }
+}
+
+/**************************
+        Square Animation
+**************************/
+.squareAnimation {
+    width: 100px;
+    height: 100px;
+    
+    background-color: goldenrod;
+    border: 1px solid black;
+
+    animation: move 5s infinite alternate;
+}
+
+@keyframes move {
+    from {
+        top: 0;
+        left: 0;
+    }
+    to {
+        top: 100px;
+        left: 100px;
+    }
+}
+
+/**************************
+        Move Around Animation        
+**************************/
+.moveAround {
+    width: 100px;
+    height: 100px;
+    background-color: goldenrod;
+
+    animation: moveAround 10s infinite;
+}
+
+@keyframes moveAround {
+    0%,
+    100% {
+        transform: translate(0px, 0px);
+    }
+    20% {
+        transform: translate(100px, 0px);
+    }
+    40% {
+        transform: translate(100px, 100px);
+    }
+    60% {
+        transform: translate(-100px, 100px);
+    }
+    80% {
+        transform: translate(-100px, 0px);
+    }
+}
+
+/**************************
+        Image Slider Animation
+**************************/
+.imgSlider {
+    animation: imgSlider 20s infinite;
+
+    background-size: cover;
+    background-position: center;
+}
+
+@keyframes imgSlider {
+    0%, 100% {
+        background-image: url(../images/mercedes.jpg);
+    }
+    20% {
+        background-image: url(../images/darkMountain.jpg);
+    }
+    40% {
+        background-image: url(../images/space.jpg);
+    }
+    60% {
+        background-image: url(../images/car.jpg);
+    }
+    80% {
+        background-image: url(../images/mountain.jpg);
+    }
+}
+
+/**************************
+        Ghost Animation
+**************************/
+.ghost {
+    width: 100%;
+    height: 100%;
+}
+
+.ghost img {
+    width: 50%;
+    animation: spooky 5s infinite;
+}
+
+@keyframes spooky {
+    50% {
+        transform: translateY(30px);
+    }
+}
+
+/**************************
+        Reusable Classes
+**************************/
+
+.addFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addBorder {
+    border: 1px solid black;
+}
