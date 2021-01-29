@@ -1,20 +1,41 @@
 @charset "UTF-8";
 
-/* . = class*/
+
+
+body {
+    background-color: f1f1f1;
+}
+
 .box {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
 
-    background-color: purple;
+    background-color: coral;
 }
 
-/* camel-case*/
-.emptySpace {
-    width: 200px;
-    height: 200px;
+#unique {
+    width: 100px;
+    height: 100px;
+
+    background-color: cadetblue;
 }
 
-.roundedCorners {
-    border-radius: 7px;
-    
+/* Utility classes */
+
+.m-1 {
+    margin: 10px;
+}
+
+.mx-1 {}
+
+.p-1{}
+
+.px-1{}
+
+.rounded-5 {
+    border-radius: 5px;
+}
+
+.rounded-10 {
+    border-radius: 10px;
 }
