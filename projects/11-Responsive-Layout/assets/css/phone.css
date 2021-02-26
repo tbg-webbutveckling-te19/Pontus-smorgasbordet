@@ -17,7 +17,7 @@ header h1 {
 }
 
 .span-logo {
-    color: #00f365;
+    color: #278927;
 }
 
 .mobile-menu-icon {
@@ -39,7 +39,7 @@ header h1 {
 }
 
 #checkbox-hack:checked ~ .mobile-menu {
-    margin-left: 300px;
+    margin-left: 250px;
 }
 .mobile-menu ul {
     flex-direction: column;
