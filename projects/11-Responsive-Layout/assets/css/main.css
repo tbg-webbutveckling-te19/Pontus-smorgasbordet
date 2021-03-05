@@ -72,9 +72,26 @@ main {
     flex: 1;
 }
 
+.main-left a {
+    
+}
+
 .main-center {
     background-color: #494949;
     flex: 4;
+}
+
+.main-center h1 {
+    font-size: 50px;
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.main-center a {
+    line-height: 300%;
+    text-align: center; 
+    color: #ecf0f1;
+    letter-spacing: 1px;
 }
 
 footer {
