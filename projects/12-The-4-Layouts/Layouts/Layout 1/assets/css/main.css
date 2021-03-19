@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+    background-color: blueviolet;
+}
+
+header {
+    background-color: #a155e7;
+    height: 150px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+nav {
+    background-color: #a155e7;
+    height: 50px;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+main {
+    min-height: 500px;
+    width: 100%;
+    display: flex;
+}
+
+
+footer {
+    background-color: #a155e7;
+    height: 50px;
+    width: 100%;
+}
+
+
+/**************
+reusable
+**************/
+
+.posts {
+    background-color: #a155e7;
+    height: 250px;
+    flex: 2;
+    margin-bottom: 15px;
+}
