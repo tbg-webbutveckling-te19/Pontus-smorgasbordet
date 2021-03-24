@@ -19,11 +19,48 @@ nav {
 }
 
 main {
-    min-height: 500px;
+    min-height: 50px;
     width: 100%;
     display: flex;
 }
 
+.left {
+    flex: 1;
+    min-height: 500px;
+}
+
+.right {
+    flex: 1;
+    min-height: 500px;
+}
+
+.newsletter {
+    height: 175px;
+}
+
+.read {
+    height: 175px;
+}
+
+.credibility {
+    height :225px;
+
+}
+
+.banner {
+    height: 150px;
+    flex: 1;
+    margin-right: 15px;
+}
+
+.service {
+    height: 150px;
+    flex: 1;
+}
+
+.links {    
+    height: 150px;
+}
 
 footer {
     background-color: #a155e7;
@@ -36,9 +73,22 @@ footer {
 reusable
 **************/
 
+.addFlex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .posts {
     background-color: #a155e7;
-    height: 250px;
+    height: 300px;
     flex: 2;
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+
+.sectionRight {
+    background-color: #a155e7;
+    flex: 1;
     margin-bottom: 15px;
 }
