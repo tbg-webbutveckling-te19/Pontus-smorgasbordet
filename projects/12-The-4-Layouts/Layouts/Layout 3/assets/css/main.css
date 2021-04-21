@@ -86,13 +86,15 @@ main {
 }
 
 .lower {
-    height: 20%;
+    height: 10%;
     width: 100%;
+    text-align: center;
 }
 
 .text {
-    height: 30%;
+    height: 40%;
     width: 100%;
+    text-align: center;
 }
 
 footer {
@@ -100,8 +102,10 @@ footer {
     height: 100px;
     width: 100%;
     background-color: #ecf0f1;
-    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
 }
+
 /********************
         Reusable
 ********************/
