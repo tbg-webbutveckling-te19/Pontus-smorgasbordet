@@ -1,5 +1,5 @@
 body {
-    background-color: white;
+    background-color: #1844BD;
 }
  
 nav {
@@ -33,21 +33,20 @@ main {
     height: 100%;
     flex: 1.5;
     background-color: white;
-    border: black dotted;
+    
+    background-color: #5d7cd0;
 }
  
-.logo h1 {
-    text-align: center;
-    font-size: 50px;
+.logo img {
+    height: 100%;
 }
  
 .name {
     height: 100%;
     flex: 3.5;
-    background-color: white;
-    border: black dotted;
     margin-left: 5px;
     margin-right: 5px;
+    background-color: #5d7cd0;
 }
  
 .name h1 {
@@ -59,8 +58,7 @@ main {
 .call {
     height: 100%;
     flex: 1;
-    background-color: white;
-    border: black dotted;
+    background-color: #5d7cd0;
 }
  
 .call h1 {
@@ -73,8 +71,7 @@ main {
 .search {
     height: 30px;
     width: 100%;
-    background-color: white;
-    border: black dotted;
+    background-color: #5d7cd0;
     justify-content: space-between;
     padding-bottom: 5px;
     margin-bottom: 5px;
@@ -112,7 +109,7 @@ main {
 .left {
     height: 100%;
     flex: 1.5;
-    border: black dotted;
+    background-color: #5d7cd0;
 }
 
 .featuredPackages h1{
@@ -150,10 +147,14 @@ main {
     margin-right: 5px;
 }
 
+.smallImages img {
+    width: 130px;
+    margin-top: 17px;
+}
+
 .center {
     height: 100%;
     flex: 3.5;
-    border: black dotted;
     margin-left: 5px;
     margin-right: 5px;
 }
@@ -165,7 +166,7 @@ main {
 
 .text {
     flex: 1.2;
-    border: black dotted;
+    background-color: #5d7cd0;
 }
 
 .text h1 {
@@ -182,21 +183,24 @@ main {
     line-height: 150%;
 }
 .destinationImage {
+    padding-top: 15px;
     flex: 1;
-    border: black dotted;
-    margin-top: 15px;
+    background-color: #5d7cd0;
 }
 
 .image {
     flex: 5;
     width: 100%;
-    border: black dotted;
+    background-color: #5d7cd0;
 }
 
+.image img {
+    width: 100%;
+}
 .caption {
     flex: 1;
     width: 100%;
-    border: black dotted;
+    background-color: #5d7cd0;
 }
 
 .caption h1 {
@@ -208,7 +212,7 @@ main {
 
 .scroll {
     flex: 1;
-    border: black dotted;
+    background-color: #5d7cd0;
 }
 
 .imageScroll{
@@ -217,12 +221,18 @@ main {
 .scrollImages {
     flex: 1;
     margin-right: 5px;
-    border: black dotted;
 }
 
+.scrollImages img {
+    width: 100%;
+}
 .scrollImages2 {
     flex: 1;
-    border: black dotted;
+}
+
+.scrollImages2 img {
+    width: 100%;
+    align-items: center ;
 }
 
 .arrows {
@@ -248,12 +258,12 @@ main {
 .time {
     width: 100%;
     flex: 1;
-    border: black dotted;
     margin-bottom: 2.5px;
+    background-color: #5d7cd0;
 }
 
 .time p {
-    font-size: 20px;
+    font-size: 25px;
     line-height: 200%;
     margin-top: 15%;
 }
@@ -261,14 +271,21 @@ main {
 .ad1 {
     width: 100%;
     flex: 1;
-    border: black dotted;
     margin-bottom: 2.5px;
+    background-color: #5d7cd0;
 }
- 
+
+.ad1 img {
+    height: 194px;
+}
 .ad2 {
     width: 100%;
     flex: 1;
-    border: black dotted;
+    background-color: #5d7cd0;
+}
+
+.ad2 img {
+    height: 194px;
 }
 /*************************
         Reusable
