@@ -133,6 +133,102 @@ header h1 {
     margin-top: 25px;
     height: 75px;
 }
+
+/********************
+        Main Page
+********************/
+.subpage {
+    background-color: black;
+
+    width: 428px;
+    height: auto;
+
+    padding-bottom: 300px;
+
+    margin-left: 400px;
+}
+
+.destination {
+    background-color: rgb(31, 31, 31);
+
+    height: 40px;
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+
+.destination h1 {
+    text-align: center;
+
+    color: #ecf0f1;
+
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.toplist {
+    background-color: rgb(31, 31, 31);
+    
+    height: auto;
+    width: 100%;
+
+    padding-top: 15px;
+
+    margin-bottom: 15px;
+}
+
+.text h1{
+    color: #ecf0f1;
+
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 7%;
+}
+
+.text p {
+    color: #9c9c9c;
+
+    font-weight: lighter;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 7%;
+}
+
+.scroll {
+    height: auto;
+    width: 428px;
+
+    overflow-x: scroll;
+    overflow-y: auto;
+
+    margin-top: 10px;
+
+    justify-content: space-evenly;
+}
+
+.playlist img {
+    height: 100px;
+    width: 100px;
+}
+
+.playlist p {
+    color: #ecf0f1;
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+}
+
+.featured {
+    background-color: rgb(31, 31, 31);
+    
+    height: auto;
+    width: 100%;
+    
+    padding-top: 15px;
+}
+
+
 /********************
         Reusable
 ********************/
