@@ -22,6 +22,8 @@ body {
 
     justify-content: space-around;
 
+    margin-left: 400px;
+
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -102,6 +104,20 @@ header h1 {
     font-size: 16px;
 }
 
+.signIn {
+    margin-top: 25px;
+
+    font-size: 20px;
+
+
+    text-align: center;
+}
+
+.signIn a {
+    text-decoration: underline;
+    color: #ecf0f1;
+}
+
 .register {
     margin-top: 75px;
 
@@ -138,12 +154,12 @@ header h1 {
         Main Page
 ********************/
 .subpage {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
 
     width: 428px;
     height: auto;
 
-    padding-bottom: 300px;
+    padding-bottom: 100px;
 
     overflow-x: hidden;
 
@@ -217,9 +233,11 @@ header h1 {
     display: inline-block;
 
     width: 100px;
-    height: 100px;
+    height: auto;
 
     margin-left: 35px;
+
+    cursor: pointer;
 }
 
 .playlist img {
@@ -267,21 +285,30 @@ header h1 {
     
 }
 
+.popularArtist img {
+    height: auto;
+    margin-left: -75px;
+}
+
 
 /******************
         Artist
 ******************/
 
 .artist {
-    background-color: black;
+    background-color: rgb(19, 19, 19);
 
     width: 428px;
     height: auto;
 
-    padding-top: 50px;
-    padding-bottom: 300px;
+    padding-top: 30px;
+    padding-bottom: 100px;
 
     margin-left: 400px;
+}
+
+.topp {
+    margin-bottom: 40px;
 }
 
 .topp img {
@@ -299,22 +326,74 @@ header h1 {
     width: 100%;
 
     margin-top: 25px;
+    padding-left: 10px;
 
-    background-color: white;
+    background-color: rgb(31, 31, 31);
+
+    cursor: pointer;
 }
 
 .songtext {
     font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    margin-left: 10px;
+    margin-top: 3px;
+
+    color: #ecf0f1;
+}
+
+.number {
+    color: #ecf0f1;
+    
+    font-size: 12px;
+    
+    padding-right: 4px;
 }
 
 .monthlyListeners {
-    height: 300px;
+    height: 239.68px;
     width: 100%;
 
     margin-top: 50px;
 
-    background-color: white;
+    background-color: #ecf0f1;
 }
+
+.monthlyListeners img {
+    width: 100%;
+}
+
+.monthlyListeners section {
+    position: relative;
+    top: -150px;
+    left: 25px;
+}
+
+.monthlyListeners h3 {
+    color: #ecf0f1;
+}
+
+.medverkarPa {
+    margin-top: 25px;
+    background-color: rgb(31, 31, 31);
+}
+
+.medverkarPa h1 {
+    text-align: center;
+    color: #ecf0f1;
+}
+
+.contribute p{
+    color: #ecf0f1;
+
+    text-align: center;
+}
+
+.contribute2 p {
+    margin-left: -10px;
+}
+
 /********************
         Reusable
 ********************/
